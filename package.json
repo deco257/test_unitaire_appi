@@ -1,0 +1,20 @@
+{
+  "name": "test_unitaire_appi",
+  "version": "1.0.0",
+  "description": "c est include des test unitaires dans mon backend",
+  "main": "Server.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "deco257",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "sequelize": "^6.37.3",
+    "sqlite3": "^5.1.7"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "supertest": "^7.0.0"
+  }
+}
